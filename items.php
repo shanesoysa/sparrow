@@ -34,7 +34,7 @@ http://www.templatemo.com/tm-486-new-event
 ============================== -->
 <div class="preloader">
 
-	<div class="sk-rotating-plane"></div>
+	<img  src="images/lOGO1-3.png" class="img-responsive" alt="sparrow">
 
 </div>
 
@@ -212,11 +212,10 @@ http://www.templatemo.com/tm-486-new-event
                     | Design: <a rel="nofollow" href="https://www.dtinnovations.lk/" target="_parent">DTInnovations</a></p>
 
 				<ul class="social-icon">
-					<li><a href="#" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
-					<li><a href="#" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
-					<li><a href="#" class="fa fa-dribbble wow fadeInUp" data-wow-delay="1.6s"></a></li>
-					<li><a href="#" class="fa fa-behance wow fadeInUp" data-wow-delay="1.9s"></a></li>
-					<li><a href="#" class="fa fa-google-plus wow fadeInUp" data-wow-delay="2s"></a></li>
+					<li><a href="https://www.facebook.com/dtinnovations.lk/" class="fa fa-facebook wow fadeInUp" data-wow-delay="1s"></a></li>
+					<li><a href="https://twitter.com/dti_17" class="fa fa-twitter wow fadeInUp" data-wow-delay="1.3s"></a></li>
+					<li><a href="https://www.instagram.com/dtinnovations_sw/?hl=en" class="fa fa-instagram wow fadeInUp" data-wow-delay="1.6s"></a></li>
+				
 				</ul>
 
 			</div>

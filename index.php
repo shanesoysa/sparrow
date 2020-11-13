@@ -77,7 +77,6 @@ http://www.templatemo.com/tm-486-new-event
     INTRO SECTION   
 ============================== -->
 <section id="carousel" class="parallax-section">
-	<div class="container">
 		<div class="row">
 
 			<div class="col-md-12 col-sm-12">
@@ -175,8 +174,11 @@ width: 100%;  object-fit: cover;  filter: brightness(50%); " alt="...">
 	<div class="container">
 		<div class="row">
 			<div class="wow fadeInUp col-md-6 col-sm-10" data-wow-delay="1.6s">
-				<div class="embed-responsive embed-responsive-16by9">
-					<img style="background: linear-gradient(black, #fc9d03);" src="images/Bird_PNG_Clipart-65-1.png" height="310px" alt="sparrow">
+				<div class="embed-responsive embed-responsive-16by9" style="background: linear-gradient(black, #fc9d03);">
+					<img src="images/Bird_PNG_Clipart-65-1.png" height="310px" style=" display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;" alt="sparrow">
 				</div>
 			</div>
 
@@ -422,7 +424,7 @@ No.73.Ragama Road, Kandana,Sri Lanka</h2><br>
 					<div class="section-title">
 						<h2>Place An Order Online</h2>
 					</div>
-					<form id="form-Itemorder" name="form-Itemorder" action="http://127.0.0.1:8000/api/store" method="post">
+					<form id="form-Itemorder" name="form-Itemorder" action="http://test.sparrow.lk/api/store" method="post">
 						<input name="name" type="text" class="form-control" id="name" placeholder="Name" required>
 						<input name="address" type="text" class="form-control" id="address" placeholder="Location address">
 
@@ -515,7 +517,7 @@ No.73.Ragama Road, Kandana,Sri Lanka</h2><br>
 	$(function () {
 		
 		$.ajax({
-        url: 'http://127.0.0.1:8000/api/items',
+        url: 'http://test.sparrow.lk/api/items',
         method: 'get',
         error: function (e){
             console.error(e);
